@@ -2,7 +2,8 @@
   "name": "pro-shop",
   "version": "1.0.0",
   "description": "pro-shop mern project traversy course",
-  "main": "index.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
     "client": "npm run dev --prefix frontend",
     "start": "node backend/server.js"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AllenCodess/pro-shop/issues"
   },
-  "homepage": "https://github.com/AllenCodess/pro-shop#readme"
+  "homepage": "https://github.com/AllenCodess/pro-shop#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
