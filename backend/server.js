@@ -1,6 +1,6 @@
 import express from "express";
 import products from "../backend/data/products.js";
-const port = 5000;
+const port = process.env.PORT;
 
 const app = express();
 
