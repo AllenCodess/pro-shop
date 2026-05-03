@@ -1,6 +1,9 @@
 import express from "express";
 import products from "../backend/data/products.js";
+import connectDB from "./config/db.js";
 const port = process.env.PORT;
+
+connectDB();
 
 const app = express();
 
