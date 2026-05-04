@@ -50,7 +50,7 @@ const productSchema = mongoose.Schema(
       default: 0,
     },
     numReviews: {
-      type: Number,
+      type: String,
       required: true,
       default: 0,
     },
