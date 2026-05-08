@@ -3,6 +3,7 @@ import Product from "../components/Product.jsx";
 import { useGetProductsQuery } from "../slices/productApiSlice.js";
 import Loader from "../components/Loader";
 import Message from "../components/Message.jsx";
+
 const HomeScreen = () => {
   const { data: products, isLoading, error } = useGetProductsQuery();
 
