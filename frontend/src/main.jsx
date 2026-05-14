@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from "./store.js";
 import "./bootstrap.custom/bootstrap.custom.css";
 import "./proshop-theme/proshop-theme/css/bootstrap.css";
+import LoginPage from "./screens/LoginScreen.jsx";
 
 import App from "./App.jsx";
 
