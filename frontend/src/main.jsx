@@ -6,6 +6,7 @@ import store from "./store.js";
 import "./bootstrap.custom/bootstrap.custom.css";
 import "./proshop-theme/proshop-theme/css/bootstrap.css";
 import LoginPage from "./screens/LoginScreen.jsx";
+import RegisterScreen from "./screens/RegisterScreen.jsx";
 
 import App from "./App.jsx";
 
