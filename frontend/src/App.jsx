@@ -6,10 +6,13 @@ import HomeScreen from "./screens/HomeScreen";
 import CartPage from "./screens/CartScreen";
 import LoginPage from "./screens/LoginScreen";
 import ProductScreen from "./screens/ProductScreen";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <>
+      <ToastContainer />
       <Header />
       <main>
         <Container>
