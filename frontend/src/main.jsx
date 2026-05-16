@@ -8,6 +8,7 @@ import "./proshop-theme/proshop-theme/css/bootstrap.css";
 import LoginPage from "./screens/LoginScreen.jsx";
 import RegisterScreen from "./screens/RegisterScreen.jsx";
 import ShippingScreen from "./screens/ShipppingScreens.jsx";
+import PrivateRoute from "./components/PrivateRoute.jsx";
 
 import App from "./App.jsx";
 
