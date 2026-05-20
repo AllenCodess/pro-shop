@@ -13,6 +13,7 @@ import PaymentScreen from "./screens/PaymentScreen";
 import PlaceOrderScreen from "./screens/PlaceOrderScreen";
 import OrderScreen from "./screens/OrderScreen.jsx";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+import ProfileScreen from "./screens/ProfileScreen.jsx";
 
 import App from "./App.jsx";
 
