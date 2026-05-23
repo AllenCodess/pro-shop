@@ -11,6 +11,10 @@ export default defineConfig({
     },
     proxy: {
       "/api": "http://localhost:8000",
+      "/uploads": {
+        target: "http://localhost:8000",
+        changeOrigin: true,
+      },
     },
   },
 });
