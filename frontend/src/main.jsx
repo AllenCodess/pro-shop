@@ -18,6 +18,7 @@ import AdminRoute from "./components/AdminRoute.jsx";
 import OrderListScreen from "./screens/admin/OrderListScreen.jsx";
 import ProductListScreen from "./screens/admin/ProductListScreen.jsx";
 import ProductEditScreen from "./screens/admin/ProductEditScreen.jsx";
+import UserListScreen from "./screens/admin/UserListScreen";
 
 import App from "./App.jsx";
 
