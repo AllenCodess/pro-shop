@@ -31,6 +31,7 @@ function App() {
         <Container>
           <Routes>
             <Route path="/" element={<HomeScreen />} />
+            <Route path="/page/:pageNumber" element={<HomeScreen />} />
             <Route path="/cart" element={<CartPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/product/:id" element={<ProductScreen />} />
@@ -45,6 +46,7 @@ function App() {
             <Route path="" element={<AdminRoute />}>
               <Route path="/admin/orderlist" element={<OrderListScreen />} />
               <Route path="/admin/productlist" element={<ProductListScreen />} />
+              <Route path="admin/productlist/:pageNumber" element={<ProductListScreen />} />
               <Route path="/admin/product/:id/edit" element={<ProductEditScreen />} />
               <Route path="/admin/userlist" element={<UserListScreen />} />
               <Route path="/admin/user/:id/edit" element={<UserEditScreen />} />
