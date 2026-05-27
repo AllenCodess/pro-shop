@@ -1,16 +1,80 @@
-# React + Vite
+ProShop
+A full-stack eCommerce platform built with the MERN stack. Users can browse products, add items to cart, and complete purchases via PayPal. Admins can manage products, orders, and users through a dedicated dashboard.
+🔗 Live Demo: https://pro-shop-7zru.onrender.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Shopper
 
-Currently, two official plugins are available:
+Browse and search products with pagination
+Product detail pages with ratings and customer reviews
+Shopping cart with quantity management
+Checkout flow: shipping → payment method → order summary
+PayPal payment integration
+Order history and profile management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Admin
 
-## React Compiler
+Product management: create, edit, delete, and upload product images
+Order management: view all orders and mark as delivered
+User management: view and edit user accounts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
+Frontend
 
-## Expanding the ESLint configuration
+React 19 with React Router v7
+Redux Toolkit + RTK Query for state and data fetching
+React Bootstrap for UI components
+Vite for bundling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend
+
+Node.js + Express
+MongoDB + Mongoose
+JWT authentication with HTTP-only cookies
+Multer for image uploads
+bcrypt for password hashing
+
+Deployment
+
+Render (full-stack hosting)
+MongoDB Atlas (cloud database)
+
+Getting Started
+Prerequisites
+
+Node.js
+MongoDB Atlas account
+
+Installation
+bash# Clone the repo
+git clone https://github.com/AllenCodess/pro-shop.git
+cd pro-shop
+
+# Install backend dependencies
+
+npm install
+
+# Install frontend dependencies
+
+npm install --prefix frontend
+Environment Variables
+Create a .env file in the root directory:
+NODE_ENV=development
+PORT=8000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PAYPAL_CLIENT_ID=your_paypal_client_id
+Running the App
+bash# Run frontend and backend concurrently
+npm run dev
+
+# Run backend only
+
+npm run server
+
+# Run frontend only
+
+npm run client
+Seed Database
+bash# Import sample data
+node backend/seeder.js
