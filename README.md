@@ -16,9 +16,9 @@ A full-stack eCommerce platform built with the MERN stack. Users can browse prod
 
 # Admin
 
-Product management: create, edit, delete, and upload product images
-Order management: view all orders and mark as delivered
-User management: view and edit user accounts
+- Product management: create, edit, delete, and upload product images
+- Order management: view all orders and mark as delivered
+- User management: view and edit user accounts
 
 # Tech Stack
 
@@ -48,38 +48,3 @@ User management: view and edit user accounts
 
 - Node.js
 - MongoDB Atlas account
-
-# Installation
-
-bash# Clone the repo
-git clone https://github.com/AllenCodess/pro-shop.git
-cd pro-shop
-
-# Install backend dependencies
-
-npm install
-
-# Install frontend dependencies
-
-npm install --prefix frontend
-Environment Variables
-Create a .env file in the root directory:
-NODE_ENV=development
-PORT=8000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PAYPAL_CLIENT_ID=your_paypal_client_id
-Running the App
-bash# Run frontend and backend concurrently
-npm run dev
-
-# Run backend only
-
-npm run server
-
-# Run frontend only
-
-npm run client
-Seed Database
-bash# Import sample data
-node backend/seeder.js
